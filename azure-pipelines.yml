@@ -7,8 +7,8 @@ trigger:
 - master
 
 pool:
-  sha-ubuntu
-  #vmImage: ubuntu-latest
+  #sha-ubuntu
+  vmImage: ubuntu-latest
  
 
 steps:
