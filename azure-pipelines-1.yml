@@ -40,3 +40,6 @@ steps:
     testResultsFormat: 'JUnit'
     testResultsFiles: '**/TEST-*.xml'
     testRunTitle: 'Test Results' 
+
+- script: ls (Build.SourcesDirectory)/testxml
+  displayName: 'List files in testxml directory'   
